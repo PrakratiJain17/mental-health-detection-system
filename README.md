@@ -39,54 +39,72 @@ This project provides a lightweight, interactive application to detect signs of 
 
 --------------------------
 
-## 🛠 Setup Instructions
-1. Clone the Repository:
-```bash
-git clone https://github.com/PrakratiJain17/mental-health-detection-system.git
-cd MentalHealthApp
+## 🛠 Setup & Run Instructions
 
-2. Create Virtual Environment & Install Dependencies:
+Follow these steps to get the app running:
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/PrakratiJain17/mental-health-detection-system.git
+cd mental-health-detection-system
+
+# 2️⃣ Create and activate virtual environment
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
+# Linux / Mac
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
+
+# 3️⃣ Install dependencies
 pip install -r requirements.txt
 
-3. Download trained models:
-Download all model files from this Drive folder: https://drive.google.com/drive/u/0/folders/15_1ZglKmzCIPbXLrXexDke5wxKgcUD7W
+# 4️⃣ Download trained models
+# Download all model files from this Google Drive folder: https://drive.google.com/drive/u/0/folders/15_1ZglKmzCIPbXLrXexDke5wxKgcUD7W
 
-4. Run the App: 
+# 5️⃣ Run the App
 python app.py
 
 ---------------------------
 
-📊 Supported Labels
-1.Text:
-Not Depressed
-Depressed
+## 📊 Supported Labels
 
-2.Audio Emotions:
-Angry, Disgust, Fear, Happy, Neutral, Sad, Surprise
-Depression Mapping for Audio:
-Sad, Fear, Disgust, Neutral → Depressed
-Others → Not Depressed
+### 1. Text Analysis
+- Not Depressed
+- Depressed
 
-📞 Mental Health Support (India)
+### 2. Audio Emotions
+- Angry, Disgust, Fear, Happy, Neutral, Sad, Surprise
 
-1.AASRA (24x7): +91-9820466726
-2.KIRAN (Govt. of India): 1800-599-0019
+#### Depression Mapping for Audio
+- Sad, Fear, Disgust, Neutral → Depressed
+- Others → Not Depressed
 
-⚠️ Disclaimer: This app is for informational purposes only and is not a substitute for professional care. Please consult a mental health professional if needed.
+---
 
-----------------------------
+## 📞 Mental Health Support (India)
 
-🖼 Screenshots / Demo
+1. **AASRA (24x7):** +91-9820466726
+2. **KIRAN (Govt. of India):** 1800-599-0019
+
+---
+
+## ⚠️ Disclaimer
+This app is for **informational purposes only** and is **not a substitute for professional care**.  
+Please consult a **mental health professional** if needed.
+ 
+--------------------------
+
+
+# 🖼 Screenshots / Demo
+
+Below is a screenshot of the Mental Health Detection App:
 ![App Screenshot](image.png)
 
 -----------------------------
 
-🚀 Future Improvements
-1.Add multi-language support for text input.
-2.Enhance audio analysis with longer recordings.
-3.Integrate live streaming input for real-time emotion tracking.
-4.Deploy to Gradio Hub or HuggingFace Spaces for public access.
+# 🚀 Future Improvements
 
+1. Add **multi-language support** for text input.
+2. Enhance **audio analysis** to handle longer recordings.
+3. Integrate **live streaming input** for real-time emotion tracking.
+4. Deploy the app to **Gradio Hub** or **HuggingFace Spaces** for public access.
