@@ -1,0 +1,8 @@
+tensorflow
+transformers
+librosa
+numpy
+gradio
+soundfile
+matplotlib
+pandas
